@@ -3,7 +3,7 @@ import { Container, Typography } from '@mui/material';
 function Post() {
   return (
     <Container maxWidth="sm">
-      <Typography variant="h6" color="#333333" mb={1}>
+      <Typography variant="h6" color="#6F4E37" mb={1}>
         {' '}
         Title{' '}
       </Typography>

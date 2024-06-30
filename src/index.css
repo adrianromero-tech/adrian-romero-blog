@@ -1,4 +1,7 @@
-body,
+body {
+  font-family: 'Roboto';
+  margin: 0;
+}
 html {
   font-family: 'Roboto';
 }

@@ -1,7 +1,13 @@
+import NavigationBar from './components/navigationBar';
 import Home from './pages/home';
 
 function App() {
-  return <Home />;
+  return (
+    <>
+      <NavigationBar />
+      <Home />
+    </>
+  );
 }
 
 export default App;
