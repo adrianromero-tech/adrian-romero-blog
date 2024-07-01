@@ -4,7 +4,7 @@ import Post from '../../components/post';
 function Home() {
   return (
     <Container maxWidth="md">
-      <Typography variant="h3" textAlign="center" mt={10} color={'#8B735B'}>
+      <Typography variant="h3" textAlign="center" mt={10} color={'#6F4E37'}>
         adrián romero
       </Typography>
       <Typography
@@ -13,7 +13,7 @@ function Home() {
         sx={{ fontStyle: 'italic' }}
         mb={10}
       >
-        blog where I share my learnings and experiencies
+        blog where I share my learnings and experiencies 🧉
       </Typography>
       <Post />
     </Container>

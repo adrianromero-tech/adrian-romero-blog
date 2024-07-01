@@ -5,9 +5,9 @@ function Post() {
     <Container maxWidth="sm">
       <Typography variant="h6" color="#6F4E37" mb={1}>
         {' '}
-        Title{' '}
+        title{' '}
       </Typography>
-      <Typography variant="body1" color="#4F4F4F">
+      <Typography variant="body1" color="#4F4F4F" paragraph>
         {' '}
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim

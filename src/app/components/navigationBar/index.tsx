@@ -1,15 +1,23 @@
-import { AppBar, Toolbar, Typography } from '@mui/material';
+import { AppBar, Toolbar, Typography, Button } from '@mui/material';
 
 function NavigationBar() {
   return (
-    <AppBar position="relative" sx={{ bgcolor: '#A67B5B' }}>
+    <AppBar position="relative" sx={{ bgcolor: '#6F4E37' }}>
       <Toolbar variant="dense">
-        <Typography mr={2}> home </Typography>
-        <Typography mr={2}> about </Typography>
-        <Typography mr={2}> archive </Typography>
-        <Typography> contact </Typography>
+        <NavigationTab dest="/home"> home </NavigationTab>
+        <NavigationTab dest="/about"> about </NavigationTab>
+        <NavigationTab dest="/archive"> archive </NavigationTab>
+        <NavigationTab dest="/contact"> contact </NavigationTab>
       </Toolbar>
     </AppBar>
+  );
+}
+
+function NavigationTab({ children, dest }: { children: string; dest: string }) {
+  return (
+    <Button color="inherit" href={dest}>
+      <Typography textTransform={'lowercase'}>{children}</Typography>
+    </Button>
   );
 }
 
